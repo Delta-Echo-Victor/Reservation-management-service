@@ -1,0 +1,31 @@
+body{font-family:system-ui,sans-serif;margin:0;padding:0;background:#f5f5f5;}
+header{padding:1rem;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.1);} 
+h1{margin:0;font-size:1.5rem;} 
+main{padding:1rem;} 
+form{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem;} 
+input,select,button{padding:.5rem;font-size:1rem;border:1px solid #ccc;border-radius:4px;} 
+.listing{background:#fff;border-radius:8px;padding:1rem;margin-bottom:1rem;box-shadow:0 1px 4px rgba(0,0,0,.05);} 
+.listing h3{margin:.25rem 0;} 
+.listing a{text-decoration:none;color:#0077cc;} 
+.booking-header{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1rem;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.1);
+}
+.back-btn{font-size:.9rem;text-decoration:none;color:#0077cc;}
+.booking-card{
+  background:#fff;max-width:700px;margin:auto;padding:1rem;border-radius:8px;
+  box-shadow:0 1px 4px rgba(0,0,0,.1);display:flex;flex-direction:column;gap:.9rem;
+}
+.booking-card fieldset{
+  border:1px solid #0077cc;border-radius:4px;padding:.75rem;margin:0;
+  display:flex;flex-direction:column;gap:.6rem;
+}
+.booking-card label{display:flex;flex-direction:column;font-size:.9rem;gap:.25rem;}
+.booking-card input{
+  padding:.45rem;font-size:1rem;border:1px solid #ccc;border-radius:4px;
+}
+.booking-card button{
+  align-self:flex-start;padding:.6rem 1.4rem;font-size:1rem;border:none;
+  border-radius:4px;background:#0077cc;color:#fff;cursor:pointer;
+}
+.booking-card button:hover{background:#005fa3;}

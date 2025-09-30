@@ -137,3 +137,9 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# app configs (keep these private)
+config.js
+config/*.js
+src/config/*.local.js
+src/config/secret*.js

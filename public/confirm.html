@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking confirmed</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header><h1>All set!</h1></header>
+<main>
+  <p>Your booking reference id is <strong id="ref"></strong> and your booking has been saved successfully.</p>
+  <p><a href="/index.html">Return to homepage</a></p>
+</main>
+<script>
+  document.getElementById("ref").textContent = new URLSearchParams(location.search).get("id");
+</script>
+</body>
+</html>

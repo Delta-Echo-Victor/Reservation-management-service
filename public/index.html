@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Airbnb Finder</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header><h1>Airbnb Finder</h1></header>
+<main>
+  <form id="filterForm">
+    <input required name="market" placeholder="Location (e.g. Barcelona)">
+    <select name="type">
+      <option value="">Any type</option>
+      <option>Apartment</option>
+      <option>House</option>
+      <option>Bed and breakfast</option>
+    </select>
+    <select name="bedrooms">
+      <option value="">Any bedrooms</option>
+      <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+    </select>
+    <button>Search</button>
+  </form>
+  <section id="results"></section>
+</main>
+<script src="index.js"></script>
+</body>
+</html>

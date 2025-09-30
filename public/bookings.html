@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book the property</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="booking-header">
+  <h1 id="title"></h1>
+  <a class="back-btn" href="/index.html">⟵ Back</a>
+</header>
+
+<main>
+  <form id="bookForm" class="booking-card">
+    <h2>Let's book the property</h2>
+
+    <fieldset>
+      <legend>Booking Details</legend>
+      <label>Check In:
+        <input type="date" name="start" required>
+      </label>
+      <label>Check Out:
+        <input type="date" name="end" required>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Details</legend>
+      <label>Your Name:
+        <input name="name"  placeholder="Mandatory" required>
+      </label>
+      <label>Email Address:
+        <input type="email" name="email" placeholder="Mandatory" required>
+      </label>
+      <label>Your Mobile No:
+        <input name="mobile" placeholder="0412 345 678 (mandatory)" required>
+      </label>
+      <label>Day Phone:
+        <input name="phone"  placeholder="Day phone (optional)">
+      </label>
+      <label>Postal Address:
+        <input name="postal" placeholder="Postal address">
+      </label>
+      <label>Residential Address:
+        <input name="home"   placeholder="(cannot be a post-box address)">
+      </label>
+    </fieldset>
+
+    <button>Book Now</button>
+  </form>
+</main>
+
+<script src="bookings.js"></script>
+</body>
+</html>
